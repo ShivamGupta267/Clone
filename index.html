@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+
+    <header id="navbar">
+        
+        <div id="navbar-part1">
+            <div id="navbar-logo">
+                <img src="/assets/amazon_logo.png" alt="" id="amazon-logo">
+            </div>
+                
+            <div id="navbar-address">
+        
+                <div id="location-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+        
+                <div id="address-text">
+                    <span id="DTS"> Deliver to Shivam</span>
+                    <span id="pinCode">Indore 452005</span>
+                 </div>
+        
+            </div>
+        </div>
+        <div id="navbar-part2">
+            <div id="center-bar" class="">
+
+                <select name="dropdown-all" id="dropdown" value="all">
+                    <option value="all">All</option>
+                    <option value="fashion">fashion</option>
+                    <option value="trend">trend</option>
+                    <option value="appliances">appliances</option>
+                </select>
+                <input type="text" id="search-bar" placeholder=" Search Amazon.in">
+                <div id="searchbox">
+                    <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                </div>
+            </div>
+
+        </div>
+        <div id="navbar-part3">
+
+            <div id="language" class="whiteBack">
+                <img src="/projects/Amazon CLone/assets/flag-img.png" alt="" >
+                <span id="lang-text">EN</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+
+            <div id="AccountList" class="whiteBack">
+                <span>Hello, shivam</span>
+                <span class="bold">Account and List<i class="fa-solid fa-caret-down"></i>
+                </span>
+                
+            </div>
+
+            <div id="returnButton" class="whiteBack">
+                <span>Return</span>
+                <span class="bold">& orders</span>
+            </div>
+           
+            <div id="cartButton" class="whiteBack">
+                <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+                <span id="cart-text"> Cart </span>
+            </div>
+        </div>
+        
+    </header>
+    <nav id="lower-nav">
+        
+            <ul id="nav-list">
+                <li id="all-btn" class="nav-lst-btn">
+                    <i class="fa-solid fa-bars"></i>
+                    <a href=""> All </a>
+                </li>
+                <li id="keep-shop" class="nav-lst-btn">
+                    <a href="">Keep Shopping For</a>
+                </li>
+                <li id="amazon-minitv" class="nav-lst-btn">
+                    <a href="">Amazon miniTV</a>
+                </li>
+                <li id="sell" class="nav-lst-btn">
+                    <a href="">Sell</a>
+                </li>
+                <li class="nav-lst-btn" id="gift-card">
+                    <a href="">Gift Cards</a>
+                </li>
+                <li class="nav-lst-btn" id="buy-again">
+                    <a href="">Buy Again</a>
+                </li>
+                <li class="nav-lst-btn" id="browsing-his">
+                    <a href="">Browsing History</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                </li>
+                <li class="nav-lst-btn" id="coupon">
+                    <a href="">Coupon</a>
+                </li>
+                <li class="nav-lst-btn" id="amazon-pay">
+                    <a href="">Amazon Pay</a>
+                </li>
+                <li class="nav-lst-btn" id="amazon-in">
+                    <a href="">Amazon.in</a>
+                </li>
+                <li class="nav-lst-btn" id="gift-ideas">
+                    <a href="">Gift Ideas</a>
+                </li>
+                <li class="nav-lst-btn" id="books">
+                    <a href="">Books</a>
+                </li>
+                <li class="nav-lst-btn" id="hhp">
+                    <a href="">Health, HouseHold & personal care</a>
+                </li>
+                <li class="nav-lst-btn" id="customer">
+                    <a href=""> Customer Service</a>
+                </li>
+
+            </ul>
+       
+    </nav>
+    <main>
+
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/AmazonPay/Travel/PC_Hero_BAU/IF_PC_Hero_3000x1200._CB583399235_.jpg" alt="" class="back-img">
+        <img src="https://m.media-amazon.com/images/I/81yLVq5htEL._SX3000_.jpg" alt="" class="back-img">>
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/prime/ACQ/Hero_3000x12001._CB592142345_.jpg" alt="" class="back-img">>
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/D103625178_DesktopTallHero_3000x1200._CB574597993_.jpg" alt="" class="back-img">>
+        <img src="https://m.media-amazon.com/images/I/51DWgNo1fdL._SX3000_.jpg" alt="" class="back-img">>
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Beauty/Holi/Makeup-PC._CB578876927_.jpg" alt="" class="back-img">>
+        
+        <div id="left-button" class="slide-button" onclick="goLeft()">
+            <i class="fa-solid fa-caret-left"></i>
+        </div>
+        <div id="right-button" class="slide-button" onclick="goRight()">
+            <i class="fa-solid fa-caret-right"></i>
+        </div>
+
+    </main>
+    <div id="main-container">
+        <div id="box-1">
+            <div class="box1-item">
+                <h3>Pick up Where You Left up</h3>
+                <div class="box1-items">
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/71fcw75+VtL._AC_SY110_.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box1_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box2_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box3_image.jpg"  alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="box1-item">
+                <h3>Pick up Where You Left up</h3>
+                <div class="box1-items">
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/71fcw75+VtL._AC_SY110_.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box1_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box2_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box3_image.jpg"  alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="box1-item">
+                <h3>Pick up Where You Left up</h3>
+                <div class="box1-items">
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/71fcw75+VtL._AC_SY110_.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box1_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box2_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box3_image.jpg"  alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="box1-item">
+                <h3>Pick up Where You Left up</h3>
+                <div class="box1-items">
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/71fcw75+VtL._AC_SY110_.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box1_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box2_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box3_image.jpg"  alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+    <div id="container-sec">
+        <div id="cont-box1">
+            <div id="cont-box1-item1">
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/ea7bce0351ae14129a1a3c93c7b00b7922bc3d1ebd2f1fe439b991c0d832ff2a._AC_SL792_.jpg" alt="" >
+                <div>  
+                    <h2>Prime Video Recommended For you</h2> 
+                    <h4> Farzi - Season-1 </h4>
+                </div>
+               
+            </div>
+            <div id="cont-box1-item2" class="b3">
+                <h3>Pick up Where You Left up</h3>
+                <div class="box1-items">
+                    <div>
+                        <img src="/assets/box1_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box2_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box3_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box4_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div id="cont-box1-item2" class="b3">
+                <h3>Pick up Where You Left up</h3>
+                <div class="box1-items">
+                    <div>
+                        <img src="/assets/box5_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box6_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box7_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    <div>
+                        <img src="/assets/box8_image.jpg" alt=""> 
+                        <p> Product name </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="back-to-top">
+                <a href="#top">Back to top</a>
+            </div>
+        </div>
+        
+        <div class="footer-links">
+            <div class="footer-section">
+                <h3>Get to Know Us</h3>
+                <ul>
+                    <li><a href="#">About Amazon</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Make Money with Us</h3>
+                <ul>
+                    <li><a href="#">Sell on Amazon</a></li>
+                    <li><a href="#">Sell on Amazon Business</a></li>
+                    <li><a href="#">Amazon Global Selling</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Amazon Payment Products</h3>
+                <ul>
+                    <li><a href="#">Amazon Business Card</a></li>
+                    <li><a href="#">Shop with Points</a></li>
+                    <li><a href="#">Reload Your Balance</a></li>
+                    <li><a href="#">Amazon Currency Converter</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Let Us Help You</h3>
+                <ul>
+                    <li><a href="#">Amazon and COVID-19</a></li>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Returns Centre</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <a href="#"><img src="amazon-logo.png" alt="Amazon Logo"></a>
+            </div>
+            <div class="footer-countries">
+                <a href="#">United States</a> | <a href="#">Canada</a> | <a href="#">United Kingdom</a> | <a href="#">Australia</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 Amazon Clone, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </footer>
+    
+       
+    <script src="app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
